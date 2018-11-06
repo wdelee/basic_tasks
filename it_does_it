@@ -1,0 +1,10 @@
+
+
+def sorter(source_array):
+    #sorts them all biggest to smallest, (just switch the > ...)
+    for i in range(0, len(source_array)):
+        for j in range(i, len(source_array)):
+            if source_array[j] > source_array[i]:
+                source_array[i], source_array[j] = source_array[j], source_array[i]
+
+    return source_array
