@@ -1,4 +1,6 @@
 def perm(lis, x):
+    #input list (i.e. [0,1,2,3]) and x = num digits
+    #return all permutations of list elements up to x number of digits
     if x==1:
         return lis
     y = len(lis)
